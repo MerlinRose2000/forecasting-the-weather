@@ -3,11 +3,11 @@
   }
   
   body {
-    background-color: var(--primary);
+    background-color: lightskyblue;
     margin: 0;
     padding: 0;
-    font-family: "IBM Plex Sans", sans-serif;
-    color: var(--dark);
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
     line-height: 1.5;
     font-size: 16px;
   }
@@ -20,17 +20,17 @@
   h6 {
     font-weight: 700;
     margin: 0;
-    color: var(--dark);
+    color: gray;
     line-height: 1.25;
   }
   
   .hero {
     padding: 3% 4%;
-    background-color: var(--light-dark);
+    background-color: lightgray;
     text-align: center;
   }
   .hero h1 {
-    color: var(--primary);
+    color: lightskyblue;
   }
   
   main {
@@ -50,14 +50,14 @@
     display: block;
     margin: 5px 0;
     border-radius: var(--border-radius);
-    color: var(--tertiary);
+    color: lavender;
     border: none;
     outline: none;
-    background-color: var(--light-dark);
+    background-color: lightgray;
   }
   
   #history {
-    background-color: var(--tertiary);
+    background-color: lavender;
   }
   ul {
     text-decoration: none;
@@ -71,25 +71,25 @@
     display: block;
     margin: 5px 0;
     border-radius: var(--border-radius);
-    color: var(--light-dark);
+    color: lightgray;
     border: none;
     outline: none;
-    background-color: var(--primary);
+    background-color: lightskyblue;
     transform: translate(-1px, -1px);
   }
   
   .list-group-item:hover {
-    color: var(--primary);
-    background-color: var(--light-dark);
+    color: lightskyblue;
+    background-color: lightgray;
     transform: translate(0, 0);
   }
   
   .list-group-item-back {
     border-radius: var(--border-radius);
-    color: var(--primary);
+    color: lightskyblue;
     border: none;
     outline: none;
-    background-color: var(--light-dark);
+    background-color: lightgray;
     transform: translate(-1px, -1px);
     display: inline-block;
     width: auto;
@@ -100,8 +100,8 @@
   }
   
   .list-group-item-back:hover {
-    color: var(--primary);
-    background-color: var(--tertiary);
+    color: lightskyblue;
+    background-color: lavender;
     transform: translate(0, 0);
-    box-shadow: 2px 2px var(--dark);
+    box-shadow: 2px 2px gray;
   }
